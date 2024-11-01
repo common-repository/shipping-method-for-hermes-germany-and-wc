@@ -1,0 +1,155 @@
+# Copyright (C) 2020 WPRuby
+# This file is distributed under the same license as the Shipping Method for Hermes and WooCommerce plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Shipping Method for Hermes and WooCommerce 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/hermes-shipping-calculator-for-woocommerce\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-07-25T17:32:22+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.1.0\n"
+"X-Domain: shipping-method-for-hermes-germany-and-wc\n"
+
+#. Plugin Name of the plugin
+#. Description of the plugin
+msgid "Shipping Method for Hermes and WooCommerce"
+msgstr ""
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://wpruby.com"
+msgstr ""
+
+#. Author of the plugin
+msgid "WPRuby"
+msgstr ""
+
+#: class-hermes-germany-shipping.php:35
+#: class-hermes-germany-shipping.php:56
+#: class-hermes-germany-shipping.php:94
+msgid "Hermes Shipping"
+msgstr ""
+
+#: class-hermes-germany-shipping.php:36
+msgid "A Hermes Germany shipping calculator"
+msgstr ""
+
+#: class-hermes-germany-shipping.php:84
+msgid "Enable"
+msgstr ""
+
+#: class-hermes-germany-shipping.php:86
+msgid "Enable Hermes Germany"
+msgstr ""
+
+#: class-hermes-germany-shipping.php:91
+msgid "Title"
+msgstr ""
+
+#: class-hermes-germany-shipping.php:93
+msgid "Title to be display in the Cart & Checkout pages."
+msgstr ""
+
+#: class-hermes-germany-shipping.php:98
+msgid "Debug Mode"
+msgstr ""
+
+#: class-hermes-germany-shipping.php:100
+msgid "Enable debug mode."
+msgstr ""
+
+#: class-hermes-germany-shipping.php:105
+msgid "Default Package Weight (g)"
+msgstr ""
+
+#: class-hermes-germany-shipping.php:107
+msgid "Default Hermes package weight to be use (in case product weight is not specified)"
+msgstr ""
+
+#: class-hermes-germany-shipping.php:112
+msgid "Default Package Length (mm)"
+msgstr ""
+
+#: class-hermes-germany-shipping.php:114
+msgid "Default Hermes package length to be use (in case product length is not specified)"
+msgstr ""
+
+#: class-hermes-germany-shipping.php:119
+msgid "Default Package Width (mm)"
+msgstr ""
+
+#: class-hermes-germany-shipping.php:121
+msgid "Default Hermes package width to be use (in case product width is not specified)"
+msgstr ""
+
+#: class-hermes-germany-shipping.php:126
+msgid "Default Package Height (mm)"
+msgstr ""
+
+#: class-hermes-germany-shipping.php:128
+msgid "Default Hermes package height to be use (in case product height is not specified)"
+msgstr ""
+
+#: class-hermes-germany-shipping.php:238
+msgid "In order to use the Hermes Shipping extension to work, the store currency must be Euro."
+msgstr ""
+
+#: class-hermes-germany-shipping.php:242
+msgid "In order to the Hermes Shipping extension to work, the base country/region must be set to Germany."
+msgstr ""
+
+#: class-hermes-germany-shipping.php:252
+msgid "Click here to change the setting."
+msgstr ""
+
+#: includes/packages.php:6
+msgid "Hermes Parcel"
+msgstr ""
+
+#: includes/packages.php:8
+msgid "Longest + shortest side 1cm to 37cm, max 25kg, up to 50€ liability"
+msgstr ""
+
+#: includes/packages.php:10
+msgid "Enable Hermes Parcel"
+msgstr ""
+
+#: includes/packages.php:24
+msgid "S Package"
+msgstr ""
+
+#: includes/packages.php:26
+msgid "Longest + shortest side 0 cm to 50cm, max 25kg, up to 500€ liability"
+msgstr ""
+
+#: includes/packages.php:28
+msgid "Enable S Package"
+msgstr ""
+
+#: includes/packages.php:42
+msgid "M Package"
+msgstr ""
+
+#: includes/packages.php:44
+msgid "Longest + shortest side 50.1cm to 80cm, max 25kg, up to 500€ liability"
+msgstr ""
+
+#: includes/packages.php:46
+msgid "Enable M Package"
+msgstr ""
+
+#: includes/packages.php:60
+msgid "L Package"
+msgstr ""
+
+#: includes/packages.php:62
+msgid "Longest + shortest side 80.1cm to 120cm, max 25kg, up to 500€ liability"
+msgstr ""
+
+#: includes/packages.php:64
+msgid "Enable L Package"
+msgstr ""

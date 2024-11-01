@@ -1,0 +1,335 @@
+[
+    {
+        "name": "bamarni/composer-bin-plugin",
+        "version": "1.4.1",
+        "version_normalized": "1.4.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/bamarni/composer-bin-plugin.git",
+            "reference": "9329fb0fbe29e0e1b2db8f4639a193e4f5406225"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/bamarni/composer-bin-plugin/zipball/9329fb0fbe29e0e1b2db8f4639a193e4f5406225",
+            "reference": "9329fb0fbe29e0e1b2db8f4639a193e4f5406225",
+            "shasum": ""
+        },
+        "require": {
+            "composer-plugin-api": "^1.0 || ^2.0",
+            "php": "^5.5.9 || ^7.0 || ^8.0"
+        },
+        "require-dev": {
+            "composer/composer": "^1.0 || ^2.0",
+            "symfony/console": "^2.5 || ^3.0 || ^4.0"
+        },
+        "time": "2020-05-03T08:27:20+00:00",
+        "type": "composer-plugin",
+        "extra": {
+            "class": "Bamarni\\Composer\\Bin\\Plugin"
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Bamarni\\Composer\\Bin\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "description": "No conflicts for your bin dependencies",
+        "keywords": [
+            "composer",
+            "conflict",
+            "dependency",
+            "executable",
+            "isolation",
+            "tool"
+        ]
+    },
+    {
+        "name": "dvdoug/boxpacker",
+        "version": "2.7.1",
+        "version_normalized": "2.7.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/dvdoug/BoxPacker.git",
+            "reference": "aafbef34927ea249e65c8d014e329a34bbe28038"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/dvdoug/BoxPacker/zipball/aafbef34927ea249e65c8d014e329a34bbe28038",
+            "reference": "aafbef34927ea249e65c8d014e329a34bbe28038",
+            "shasum": ""
+        },
+        "require": {
+            "ext-json": "*",
+            "php": ">=5.4.0",
+            "psr/log": "^1.0"
+        },
+        "require-dev": {
+            "behat/behat": "^3.5",
+            "dvdoug/behat-code-coverage": "^3.0||^4.0",
+            "monolog/monolog": "^1.25||^2.0",
+            "phpunit/phpunit": "^4.8.36||^5.7.27||^6.5.14||^7.5.20||^8.5.2||^9.0"
+        },
+        "time": "2020-06-11T21:02:04+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "DVDoug\\BoxPacker\\": "src/",
+                "DVDoug\\BoxPacker\\Test\\": "tests/Test"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Doug Wright",
+                "role": "Developer"
+            }
+        ],
+        "description": "An implementation of the 3D (actually 4D) bin packing/knapsack problem (aka creating parcels by putting items into boxes)",
+        "homepage": "http://boxpacker.io/",
+        "keywords": [
+            "bin packing",
+            "binpacking",
+            "box",
+            "boxes",
+            "boxpacking",
+            "container",
+            "knapsack",
+            "packaging",
+            "packing",
+            "parcel",
+            "parcelpacking",
+            "shipping"
+        ],
+        "funding": [
+            {
+                "url": "https://github.com/dvdoug",
+                "type": "github"
+            }
+        ]
+    },
+    {
+        "name": "psr/log",
+        "version": "1.1.3",
+        "version_normalized": "1.1.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/php-fig/log.git",
+            "reference": "0f73288fd15629204f9d42b7055f72dacbe811fc"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/php-fig/log/zipball/0f73288fd15629204f9d42b7055f72dacbe811fc",
+            "reference": "0f73288fd15629204f9d42b7055f72dacbe811fc",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2020-03-23T09:12:05+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.1.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Psr\\Log\\": "Psr/Log/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "PHP-FIG",
+                "homepage": "http://www.php-fig.org/"
+            }
+        ],
+        "description": "Common interface for logging libraries",
+        "homepage": "https://github.com/php-fig/log",
+        "keywords": [
+            "log",
+            "psr",
+            "psr-3"
+        ]
+    },
+    {
+        "name": "typisttech/imposter",
+        "version": "0.5.0",
+        "version_normalized": "0.5.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/TypistTech/imposter.git",
+            "reference": "d124d428c967551be815fb4602c73025da2b2893"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/TypistTech/imposter/zipball/d124d428c967551be815fb4602c73025da2b2893",
+            "reference": "d124d428c967551be815fb4602c73025da2b2893",
+            "shasum": ""
+        },
+        "require": {
+            "ext-json": "*",
+            "php": "^7.2"
+        },
+        "require-dev": {
+            "codeception/codeception": "^4.1",
+            "codeception/mockery-module": "^0.4.0",
+            "codeception/module-asserts": "^1.1",
+            "codeception/module-filesystem": "^1.0",
+            "squizlabs/php_codesniffer": "^3.5"
+        },
+        "suggest": {
+            "typisttech/imposter-plugin": "Composer plugin to integrate composer and imposter"
+        },
+        "time": "2020-04-15T19:55:54+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "0.4.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "TypistTech\\Imposter\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Typist Tech",
+                "email": "imposter@typist.tech",
+                "homepage": "https://typist.tech"
+            },
+            {
+                "name": "Tang Rufus",
+                "email": "tangrufus@gmail.com",
+                "homepage": "https://typist.tech",
+                "role": "Developer"
+            }
+        ],
+        "description": "Wrapping all composer vendor packages inside your own namespace. Intended for WordPress plugins",
+        "homepage": "https://typist.tech/projects/imposter",
+        "keywords": [
+            "composer",
+            "dependency",
+            "monkey-patching",
+            "namespace",
+            "wordpress"
+        ],
+        "funding": [
+            {
+                "url": "https://typist.tech/donation/",
+                "type": "custom"
+            },
+            {
+                "url": "https://www.paypal.me/iAmTangRufus/30usd",
+                "type": "custom"
+            },
+            {
+                "url": "https://github.com/tangrufus",
+                "type": "github"
+            }
+        ]
+    },
+    {
+        "name": "typisttech/imposter-plugin",
+        "version": "0.6.0",
+        "version_normalized": "0.6.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/TypistTech/imposter-plugin.git",
+            "reference": "8dc39d4d22f0a8a09ecc4d198402f07591d57ae3"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/TypistTech/imposter-plugin/zipball/8dc39d4d22f0a8a09ecc4d198402f07591d57ae3",
+            "reference": "8dc39d4d22f0a8a09ecc4d198402f07591d57ae3",
+            "shasum": ""
+        },
+        "require": {
+            "composer-plugin-api": "^1.1",
+            "php": "^7.2",
+            "typisttech/imposter": "^0.5.0"
+        },
+        "require-dev": {
+            "codeception/codeception": "^4.1",
+            "codeception/module-asserts": "^1.1",
+            "codeception/module-cli": "^1.0",
+            "codeception/module-filesystem": "^1.0",
+            "composer/composer": "^1.9",
+            "squizlabs/php_codesniffer": "^3.5",
+            "typisttech/codeception-composer-project-module": "^0.1.1"
+        },
+        "time": "2020-04-15T20:23:11+00:00",
+        "type": "composer-plugin",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "0.5.x-dev"
+            },
+            "class": "TypistTech\\Imposter\\Plugin\\ImposterPlugin"
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "TypistTech\\Imposter\\Plugin\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Typist Tech",
+                "email": "imposter-plugin@typist.tech",
+                "homepage": "https://www.typist.tech"
+            },
+            {
+                "name": "Tang Rufus",
+                "email": "tangrufus@gmail.com",
+                "homepage": "https://www.typist.tech",
+                "role": "Developer"
+            }
+        ],
+        "description": "Composer plugin that wraps all composer vendor packages inside your own namespace. Intended for WordPress plugins",
+        "homepage": "https://www.typist.tech/projects/imposter-plugin",
+        "keywords": [
+            "composer",
+            "composer-plugin",
+            "dependency",
+            "monkey-patching",
+            "namespace",
+            "wordpress"
+        ],
+        "funding": [
+            {
+                "url": "https://typist.tech/donation/",
+                "type": "custom"
+            },
+            {
+                "url": "https://www.paypal.me/iAmTangRufus/30usd",
+                "type": "custom"
+            },
+            {
+                "url": "https://github.com/tangrufus",
+                "type": "github"
+            }
+        ]
+    }
+]
